@@ -41,7 +41,10 @@ ltd是企业版 pro是专业版
 在面板设置里打开离线模式。
 解决方法2
 用Linux chattr命令改变文件属性。
-打开宝塔终端或者xshell，输入下面代码：
+打开宝塔终端或者xshell，
+
+输入下面代码：
 chattr +i /www/server/panel/data/plugin.json
- 解除则输入
+
+解除则输入
 chattr -i /www/server/panel/data/plugin.json
