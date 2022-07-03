@@ -37,13 +37,11 @@ ltd是企业版 pro是专业版
 取消自动修复
 因为宝塔会自动修复
 后面我要用到宝塔APP 所以我采用的是方法二
+
 解决方法1
 在面板设置里打开离线模式。
-解决方法2
-用Linux chattr命令改变文件属性。
-打开宝塔终端或者xshell，
 
-输入下面代码：
+解决方法2用Linux chattr命令改变文件属性。打开宝塔终端或者xshell，输入下面代码：
 chattr +i /www/server/panel/data/plugin.json
 
 解除则输入
